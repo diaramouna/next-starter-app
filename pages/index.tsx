@@ -1,7 +1,12 @@
+import Link from "next/link";
 export default function Home() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      <p className="text-bold">My Next Started App!</p>
-    </div>
-  );
-}
+    <div>
+      <h1>Welcome to my website</h1>
+      <hr />
+      <Link href="/Products">Products</Link>
+      <br />
+      <Link href="/About">About</Link>
+    </div>
+  );
+};
